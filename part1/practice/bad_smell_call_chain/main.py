@@ -43,3 +43,14 @@ class Person:
 
 # TODO после выполнения задания попробуйте
 # сделать экземпляр класса person и вызвать новые методы.
+
+class Person:
+    def __init__(self, city_population=100500, room_num=42):
+        self.room_num = room_num
+        self.city_population = city_population
+
+    def get_person_room(self):
+        return self.room_num
+
+    def get_city_population(self):
+        return self.city_population
